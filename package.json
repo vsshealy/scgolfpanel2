@@ -1,0 +1,19 @@
+{
+  "name": "scgolfpanel",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme built for the redesign of the SC Golf Course Ratings Panel website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsshealy/scgolfpanel.git"
+  },
+  "author": "Scott Shealy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vsshealy/scgolfpanel/issues"
+  },
+  "homepage": "https://github.com/vsshealy/scgolfpanel#readme"
+}
