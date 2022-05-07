@@ -26,7 +26,6 @@
         "wpackagist-plugin/bbpress": "*",
         "wpackagist-plugin/breadcrumb-navxt": "*",
         "wpackagist-plugin/client-dash": "*",
-        "wpackagist-plugin/code-snippets": "*",
         "wpackagist-plugin/custom-post-type-permalinks": "*",
         "wpackagist-plugin/custom-post-type-ui": "*",
         "wpackagist-plugin/display-posts-shortcode": "*",
@@ -75,6 +74,9 @@
     ],
 
     "config": {
-        "secure-http": false
+        "secure-http": false,
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
