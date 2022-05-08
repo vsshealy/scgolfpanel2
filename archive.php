@@ -1,6 +1,6 @@
 <?php 
     /**
-     * index.php
+     * archive.php
      * @package scgolfpanel
      * @author Scott Shealy
      * @version 1.0.0
@@ -15,7 +15,7 @@
     
     <!-- HEAD -->
     <head>
-        <?php include(get_template_directory()."/php/theme/scripts/head/index.php"); ?>
+        <?php include(get_template_directory()."/php/theme/scripts/head/page.php"); ?>
     </head>
 
     <!-- BODY -->
@@ -27,8 +27,8 @@
         <!-- HEADER -->
         <?php include(get_template_directory()."/header.php"); ?>
 
-        <!-- CONTENT | INDEX.PHP -->
-        <?php include(get_template_directory()."/php/theme/templates/index.php"); ?>
+        <!-- CONTENT | ARCHIVE.PHP -->
+        <?php include(get_template_directory()."/php/theme/templates/archive.php"); ?>
 
         <!-- FOOTER -->
         <?php include(get_template_directory()."/footer.php"); ?>
